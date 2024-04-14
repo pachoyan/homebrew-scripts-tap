@@ -12,7 +12,7 @@ class HelloHomebrew < Formula
   depends_on "zsh" => :test 
 
   def install
-    bin.install "hello-homebrew.sh"
+    bin.install "hello-homebrew.sh" => "hello-homebrew"
   end
 
 end
